@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'open-uri'
 
 get '/' do
     erb :new
